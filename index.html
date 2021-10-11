@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <div class="grid wipe wrap">
+
+        <!-- ========================================================================start header =================================================
+        header include: logo and searchbox , navigaton, breadcums -->
+        <!-- logo and search box -->
+        <div class="row header_search">
+            <div class="image">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="search_box">
+                <input type="text" placeholder="Tìm kiếm...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <!-- end logo and search box -->
+
+        <!-- start navigation -->
+        <div class="row navigation">
+            <div class="logo_phone">
+                <img src="./images/logo_notext1.png" alt="">
+            </div>
+            <i class="fas fa-bars menu_icon"></i>
+            <h3 class="menu_text">MENU</h3>
+            <div class="search-box-phone" id="serch_phone">
+                <input type="text" placeholder="Search..." class="search-txt-phone" id="input_phone">
+                <button class="btn" id="search_icon_phone">
+                    <i class="fas fa-search"></i>
+                </button>
+
+            </div>
+            <ul class="list">
+                <li class="item active">
+                    <a href="" class="item_link">
+                        Sản phẩm
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="item_link">
+                        Thương hiệu <i class="fas fa-angle-down"></i>
+                    </a>
+                    <div class="sub_list">
+                        <ul>
+                            <li><a href="">Hygge</a> </li>
+                            <li><a href="">Dior</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item">
+                    <a href="" class="item_link">
+                        Cửa hàng
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="item_link">
+                        Dịch vụ
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="item_link">
+                        Hàng mới về
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end navigation -->
+
+        <!-- start breadcums -->
+        <div class="breadcums row">
+            <ul>
+                <li>Home</li>
+                <li><i class="fa fa-angle-right"></i></li>
+                <li>Sản phẩm</li>
+            </ul>
+        </div>
+        <!-- end breadcums -->
+        <!-- =====================================================================end header===================================================================== -->
+        <!-- =====================================================================start content =================================================================-->
+        <!-- start slide and sub image -->
+        <div class="row slide">
+            <div class="col l-3 m-3 c-0 sub_image">
+                <div class="sub_image1">
+                    <img src="/images/subimage1.jpg" alt="">
+                    <h4>New products</h4>
+                </div>
+
+                <div class="sub_image2">
+                    <img src="/images/subimage2.jpg" alt="">
+                    <h4>Black Fridays</h4>
+                </div>
+
+            </div>
+            <div class="col l-9 m-9 c-12 main_slide">
+                <img src="/images/banner1.jpg" alt="">
+            </div>
+        </div>
+        <!-- end slide and sub image -->
+        <!-- start main product -->
+        <div class="row product">
+            <!-- start left sidebar include: category, wishlist, popular tag, newsletter -->
+            <div class="col l-3 m-12 c-12 sidebar">
+                <!--category -->
+                <div class="category">
+                    <h3 class="category_heading">
+                        CATEGORY
+                    </h3>
+                    <ul class="category_list">
+                        <li><a href=""><i class="fas fa-angle-right"></i> Lips <span>+</span></a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i> Eyes <span>+</span></a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i> Skin and Face <span>+</span></a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i> Body <span>+</span></a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i> Mom and Baby <span>+</span></a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i> Health <span>+</span></a></li>
+
+
+                    </ul>
+                </div>
+                <!-- category -->
+                <!-- start wishtlist -->
+                <div class="wishlist">
+                    <h3>WISHLIST</h3>
+                    <div class="wishlist_item">
+                        <img src="/images/pr2.png" alt="">
+                        <div class="wishlist_content">
+                            <h4>Kem trị mụn</h4>
+                            <p class="wishlist_price">100.000 vnd</p>
+                            <p class="wishlist_qty">Quanity: 1</p>
+                        </div>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="wishlist_item">
+                        <img src="/images/pr3.png" alt="">
+                        <div class="wishlist_content">
+                            <h4>Tẩy tế bào chết</h4>
+                            <p class="wishlist_price">200.000 vnd</p>
+                            <p class="wishlist_qty">Quanity: 2</p>
+                        </div>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="wishlist_qtyitem">
+                        2 items
+                    </div>
+                </div>
+                <!-- end wishlist -->
+                <!-- start popular tag -->
+                <div class="popular_tag">
+                    <h3>POPULAR TAGS</h3>
+                    <ul class="popular_list">
+                        <li><a href="">Trị mụn</a></li>
+                        <li><a href="">Bông tẩy trang</a></li>
+                        <li><a href="">Son môi</a></li>
+                        <li><a href="">Dưỡng ẩm</a></li>
+                        <li><a href="">Liền sẹo</a></li>
+                        <li><a href="">Mặt nạ</a></li>
+                        <li><a href="">Lột mụn</a></li>
+                        <li><a href="">Oxy</a></li>
+                        <li><a href="">Trắng da</a></li>
+                    </ul>
+                </div>
+                <!-- end popular tag -->
+                <!-- start newsletter -->
+                <div class="newsletter">
+                    <h3>NEWLETTERS</h3>
+                    <div class="content">
+                        <p>sign up for your newsletter</p>
+                        <input type="text" placeholder="Your email here">
+                        <button>Subcribe</button>
+                    </div>
+                    <div class="image">
+                        <img src="./images/newletter.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- end newsletter -->
+            <!-- end left side bar -->
+
+
+            <!-- start list product -->
+            <div class="col l-9 m-12 c-12 main_product">
+                <div class="container">
+                    <div class="row heading">
+                        Sản phẩm nổi bật
+                    </div>
+                    <div class="row">
+
+                        <div class="col l-4 m-4 c-6 product_wrap">
+                            <div class="home-product-item">
+
+                                <div class="product_image">
+                                    <img src="/images/kem-tri-mun-1.jpg" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="add_cart"><i class="fas fa-cart-plus"></i>Add to cart</div>
+                                </div>
+
+                                <div class="product_content">
+                                    <h3 class="name">Kem chống nắng caryophy</h3>
+                                    <p class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <p class="price">
+                                        179.000 vnđ
+                                    </p>
+                                    <div class="add_to">
+                                        <button>Add to wishlist</button>
+                                        <button>View detail</button>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-4 c-6 product_wrap">
+                            <div class="home-product-item">
+
+                                <div class="product_image">
+                                    <img src="/images/pr2.jpg" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="add_cart"><i class="fas fa-cart-plus"></i>Add to cart</div>
+                                </div>
+
+                                <div class="product_content">
+                                    <h3 class="name">Serum Tea sea oil</h3>
+                                    <p class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <p class="price">
+                                        310.000 vnđ
+                                    </p>
+                                    <div class="add_to">
+                                        <button>Add to wishlist</button>
+                                        <button>View detail</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-6 product_wrap">
+                            <div class="home-product-item">
+
+                                <div class="product_image">
+                                    <img src="/images/pr2.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="add_cart"><i class="fas fa-cart-plus"></i>Add to cart</div>
+                                </div>
+
+                                <div class="product_content">
+                                    <h3 class="name">Kem trị mụn scar</h3>
+                                    <p class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <p class="price">
+                                        120.000 vnđ
+                                    </p>
+                                    <div class="add_to">
+                                        <button>Add to wishlist</button>
+                                        <button>View detail</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-6 product_wrap">
+                            <div class="home-product-item">
+
+                                <div class="product_image">
+                                    <img src="/images/pr3.png" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="add_cart"><i class="fas fa-cart-plus"></i>Add to cart</div>
+                                </div>
+
+                                <div class="product_content">
+                                    <h3 class="name">Thuốc trắng da Angle gold</h3>
+                                    <p class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <p class="price">
+                                        230.000 vnđ
+                                    </p>
+                                    <div class="add_to">
+                                        <button>Add to wishlist</button>
+                                        <button>View detail</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-6 product_wrap">
+                            <div class="home-product-item">
+
+                                <div class="product_image">
+                                    <img src="/images/pr4.jpg" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="add_cart"><i class="fas fa-cart-plus"></i>Add to cart</div>
+                                </div>
+
+                                <div class="product_content">
+                                    <h3 class="name">Diamond white</h3>
+                                    <p class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <p class="price">
+                                        460.000 vnđ
+                                    </p>
+                                    <div class="add_to">
+                                        <button>Add to wishlist</button>
+                                        <button>View detail</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-4 c-6 product_wrap">
+                            <div class="home-product-item">
+
+                                <div class="product_image">
+                                    <img src="/images/pr5.jpg" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="add_cart"><i class="fas fa-cart-plus"></i>Add to cart</div>
+                                </div>
+
+                                <div class="product_content">
+                                    <h3 class="name">Bông tẩy trang</h3>
+                                    <p class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <p class="price">
+                                        270.000 vnđ
+                                    </p>
+                                    <div class="add_to">
+                                        <button>Add to wishlist</button>
+                                        <button>View detail</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-6 product_wrap">
+                            <div class="home-product-item">
+
+                                <div class="product_image">
+                                    <img src="/images/prson.jpg" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="add_cart"><i class="fas fa-cart-plus"></i>Add to cart</div>
+                                </div>
+
+                                <div class="product_content">
+                                    <h3 class="name">Son M.O.I đỏ đậm</h3>
+                                    <p class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <p class="price">
+                                        180.000 vnđ
+                                    </p>
+                                    <div class="add_to">
+                                        <button>Add to wishlist</button>
+                                        <button>View detail</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-4 c-6 product_wrap">
+                            <div class="home-product-item">
+
+                                <div class="product_image">
+                                    <img src="/images/prdm.webp" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="add_cart"><i class="fas fa-cart-plus"></i>Add to cart</div>
+                                </div>
+
+                                <div class="product_content">
+                                    <h3 class="name">Dưỡng môi ban đêm Laneine</h3>
+                                    <p class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <p class="price">
+                                        390.000 vnđ
+                                    </p>
+                                    <div class="add_to">
+                                        <button>Add to wishlist</button>
+                                        <button>View detail</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-6 product_wrap">
+                            <div class="home-product-item">
+
+                                <div class="product_image">
+                                    <img src="/images/kemat.jpg" alt="">
+                                    <div class="overlay"></div>
+                                    <div class="add_cart"><i class="fas fa-cart-plus"></i>Add to cart</div>
+                                </div>
+
+                                <div class="product_content">
+                                    <h3 class="name">Chì kẻ mắt siêu mảnh</h3>
+                                    <p class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <p class="price">
+                                        200.000 vnđ
+                                    </p>
+                                    <div class="add_to">
+                                        <button>Add to wishlist</button>
+                                        <button>View detail</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12 pagination_wrap">
+                            <div class="pagination">
+                                <a href="#">&laquo;</a>
+                                <a class="active" href="#">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <a href="#">4</a>
+                                <a href="#">5</a>
+                                <a href="#">6</a>
+                                <a href="#">&raquo;</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row sales">
+                        <div class="col l-6 m-6 c-12 single_sale">
+                            <div class="single_sale_imgae">
+                                <img src="./images/single_sale1.jpg" alt="">
+                                <div class="sale_overlay"></div>
+                                <div class="sale_discount">Up to 40% off</div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-6 c-12 single_sale">
+                            <div class="single_sale_imgae">
+                                <img src="./images/single_sale2.jpg" alt="">
+                                <div class="sale_overlay"></div>
+                                <div class="sale_discount">Sale off 30%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row brands">
+                        <h3>BRANDS</h3>
+                        <ul class="col l-12 m-12 c-12 brand_list">
+                            <li>
+                                <img src="./images/brand1.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./images/brand2.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./images/brand3.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./images/brand4.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./images/brand5.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./images/brand6.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end list product -->
+        </div>
+    </div>
+
+    <!--=========================================================================================== end content======================================================== -->
+    <!--=========================================================================================== start footer======================================================== -->
+    <div class="grid footer">
+        <div class="grid wipe footer_content">
+            <div class="row">
+                <div class="col l-3 m-6 c-12 about_us">
+                    <h4>ABOUT US</h4>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                        <li><i class="fas fa-map-marker"></i>343 Lê Văn Việt Quận 9, tp.HCM</li>
+                        <li><i class="fas fa-envelope-square"></i>giathai1505@gmail.com</li>
+                        <li><i class="fas fa-phone"></i>0123456789</li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-12 my_account">
+                    <h4>MY ACCOUNT</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-angle-right"></i> Your account
+                        </li>
+                        <li><i class="fas fa-angle-right"></i>My orders</li>
+                        <li><i class="fas fa-angle-right"></i>My address</li>
+                        <li><i class="fas fa-angle-right"></i>Login</li>
+                        <li><i class="fas fa-angle-right"></i>My credict Slips</li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-12 contact">
+                    <h4>INFOMATION</h4>
+                    <ul>
+                        <li>Special</li>
+                        <li>Our Store</li>
+                        <li>About us</li>
+                        <li>Term and condition</li>
+                        <li>Rules</li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-12 extra">
+                    <h4>EXTRAS</h4>
+                    <ul>
+                        <li>Brands</li>
+                        <li>Vocher</li>
+                        <li>Discount</li>
+                        <li>Privacy policy</li>
+                        <li>Affilates</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row end">
+                <div class="copy">
+                    <h6>ABOUT US CUSTOMER SERVIC PRICACY POLICY</h6>
+                    <P>Copyright © 2018 <strong style="color: black;">Pos Coron</strong> . All rights reserved.</P>
+                </div>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-google-plus"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-youtube-square"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=========================================================================================== end footer======================================================== -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $('.menu_icon').click(function() {
+            $(this).toggleClass('fa-times');
+            $('.list').toggleClass('navbar__toggle');
+        });
+
+        $(window).on('scroll load', function() {
+            $('.menu_icon').removeClass('fa-times');
+
+            $('.list').removeClass('navbar__toggle');
+        })
+
+        var menudo = document.querySelector('.navigation');
+        var trangthaimenudo = "move";
+
+        window.addEventListener('scroll', function() {
+
+            if (window.pageYOffset > 120) {
+                if (trangthaimenudo == 'move') {
+                    trangthaimenudo = "fix";
+                    menudo.classList.add('menuden');
+                }
+
+            } else if (window.pageYOffset <= 120) {
+                if (trangthaimenudo == 'fix') {
+                    trangthaimenudo = "move";
+                    menudo.classList.remove('menuden');
+                }
+
+            }
+        })
+
+        search_icon_phone.addEventListener('click', () => {
+            serch_phone.classList.toggle('kh');
+            input_phone.focus();
+        })
+    </script>
+</body>
+
+</html>
